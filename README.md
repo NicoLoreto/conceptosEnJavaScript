@@ -51,3 +51,37 @@ console.log(a);//forma correcta
 //20
 //25
 //30
+
+//-------------CADENA DE CARACTERES
+
+/*texto
+uso de comillas dobles o simples, todo lo que este entre
+comillas es considerado un caracter, incluso
+espacios en blanco.
+para omitir las comillas cuando necesito que esten
+en el texto se agrega una \ de las comillas. 
+ej*/
+
+var a= "soy una cadera \"con comillas\"";
+console.log(a);
+
+//otra opcion es usar la comilla simple
+
+//SECUENCIA DE ESCAPE
+/* Combinacion de caractteres que no se representan a si mismos
+/' comilla simple
+/" comilla doble 
+/n linea nueva= mostrar en otra linea
+/r retorno de carro
+/t tabulacion
+/b retroceso
+/f salto de pagina
+*/
+
+//----LONGITUD DE CARACTERES
+
+//cantidad de caracteres en la cadena
+
+var miCadena= "a";
+console.log (miCadena.length);
+//1
